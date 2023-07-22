@@ -1,5 +1,5 @@
 import asyncio
-from RemoteAPIClient import RemoteAPIClient
+from wsRemoteApi.wsRemoteApi.RemoteAPIClient import RemoteAPIClient
 
 async def main():
     client = RemoteAPIClient()

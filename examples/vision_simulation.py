@@ -1,8 +1,8 @@
 import cv2
 import asyncio
 import numpy as np
-from RemoteAPIClient import RemoteAPIClient
-from simConst import sim_object_visionsensor_type
+from wsRemoteApi.wsRemoteApi.RemoteAPIClient import RemoteAPIClient
+from wsRemoteApi.wsRemoteApi.simConst import sim_object_visionsensor_type
 
 
 async def main():
